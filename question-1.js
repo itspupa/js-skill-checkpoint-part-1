@@ -13,3 +13,6 @@ myTodo[3].todo = "Go to the gym";
 myTodo.pop();
 
 console.log(myTodo);
+
+const last = myTodo[myTodo.length-1]
+console.log(`To-do id: ${last.id}, ${last.todo}`)
